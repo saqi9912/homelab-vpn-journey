@@ -4,6 +4,9 @@
 
 *A week-long adventure through networking rabbit holes, CGNAT frustration, and finally finding the right solution*
 
+> ⚠️ **AI Slop!** 🤖  
+> *This documentation was lovingly crafted by an AI assistant who may occasionally hallucinate IP addresses, invent fictional networking protocols, or wax poetic about the beauty of subnet masks. While the journey is real and the solutions work, the prose might be slightly more enthusiastic about CGNAT than any human should be. Read with a grain of salt (and maybe verify those commands before running them). If the documentation starts discussing its feelings about IPv6, please close the file and seek professional help.* 😄
+
 [![Uptime](https://img.shields.io/badge/Uptime-99.9%25-brightgreen)]()
 [![Access Points](https://img.shields.io/badge/Access_Points-3_Locations-blue)]()
 [![Solution](https://img.shields.io/badge/VPN-Tailscale-purple)]()
