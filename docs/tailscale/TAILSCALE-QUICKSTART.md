@@ -151,7 +151,7 @@ curl ifconfig.me
 
 ## 📚 More Info
 
-- Full guide in `VPN.md` → **APPENDIX B: Tailscale Complete Setup Guide**
+- Full guide in `../wireguard/VPN.md` → **APPENDIX B: Tailscale Complete Setup Guide**
 - Official docs: https://tailscale.com/kb
 - Community: https://forum.tailscale.com
 

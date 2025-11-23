@@ -74,8 +74,8 @@ Based on Step 1 result:
 |----------------|---------------------|-------------|
 | **Behind CGNAT** | Tailscale (easiest!) | Continue below ⬇️ |
 | **No CGNAT + Want simple** | Tailscale | Continue below ⬇️ |
-| **No CGNAT + Want to learn** | WireGuard | See [VPN.md](./VPN.md) |
-| **Advanced user** | VPS Relay | See [VPN.md Appendix A](./VPN.md#appendix-a) |
+| **No CGNAT + Want to learn** | WireGuard | See [VPN.md](./docs/wireguard/VPN.md) |
+| **Advanced user** | VPS Relay | See [VPN.md Appendix A](./docs/wireguard/VPN.md#appendix-a) |
 
 **For 95% of users:** Continue with Tailscale below!
 
@@ -339,8 +339,8 @@ tailscale status
 
 - **Full story:** [README.md](./README.md) - My journey and lessons learned
 - **Architecture:** [ARCHITECTURE-DIAGRAMS.md](./ARCHITECTURE-DIAGRAMS.md) - How it all works
-- **Detailed guide:** [TAILSCALE-COMPLETE-GUIDE.md](./TAILSCALE-COMPLETE-GUIDE.md) - All 7 steps explained
-- **Compare solutions:** [SOLUTIONS-COMPARISON.md](./SOLUTIONS-COMPARISON.md) - All VPN options
+- **Detailed guide:** [TAILSCALE-COMPLETE-GUIDE.md](./docs/tailscale/TAILSCALE-COMPLETE-GUIDE.md) - All 7 steps explained
+- **Compare solutions:** [SOLUTIONS-COMPARISON.md](./docs/SOLUTIONS-COMPARISON.md) - All VPN options
 
 ### Security Hardening
 
@@ -348,7 +348,7 @@ Once basic setup works, consider:
 
 1. **Configure ACL policies** (Access Control Lists)
    - Limit which devices can access which services
-   - See [TAILSCALE-COMPLETE-GUIDE.md → Step 5](./TAILSCALE-COMPLETE-GUIDE.md#step-5-security-hardening)
+   - See [TAILSCALE-COMPLETE-GUIDE.md → Step 5](./docs/tailscale/TAILSCALE-COMPLETE-GUIDE.md#step-5-security-hardening)
 
 2. **Enable key expiry**
    - Devices automatically disconnect after X days

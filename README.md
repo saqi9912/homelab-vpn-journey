@@ -567,7 +567,7 @@ curl ifconfig.me
 # If same → you can use traditional VPN (WireGuard, OpenVPN)
 ```
 
-**Script included:** [`check-cgnat.sh`](./check-cgnat.sh)
+**Script included:** [`check-cgnat.sh`](./scripts/check-cgnat.sh)
 
 ---
 
@@ -581,7 +581,7 @@ curl ifconfig.me
 | **Only web apps** | Cloudflare Tunnel |
 | **Want everything** | Tailscale + Cloudflare |
 
-**Comparison guide:** [`SOLUTIONS-COMPARISON.md`](./SOLUTIONS-COMPARISON.md)
+**Comparison guide:** [`SOLUTIONS-COMPARISON.md`](./docs/SOLUTIONS-COMPARISON.md)
 
 ---
 
@@ -589,11 +589,11 @@ curl ifconfig.me
 
 Depending on your choice:
 
-- 📘 **Tailscale:** [`TAILSCALE-COMPLETE-GUIDE.md`](./TAILSCALE-COMPLETE-GUIDE.md) (full 7-step guide)
-- 📗 **Tailscale Quick:** [`TAILSCALE-QUICKSTART.md`](./TAILSCALE-QUICKSTART.md) (5-minute version)
-- 📙 **WireGuard Traditional:** [`VPN.md`](./VPN.md) (comprehensive guide)
-- 📕 **VPS Relay:** [`VPN.md` → Appendix A](./VPN.md#appendix-a-cgnat-workaround-guide)
-- 📔 **Cloudflare:** [`VPN.md` → Appendix C](./VPN.md#appendix-c-cloudflare-tunnel-setup)
+- 📘 **Tailscale:** [`TAILSCALE-COMPLETE-GUIDE.md`](./docs/tailscale/TAILSCALE-COMPLETE-GUIDE.md) (full 7-step guide)
+- 📗 **Tailscale Quick:** [`TAILSCALE-QUICKSTART.md`](./docs/tailscale/TAILSCALE-QUICKSTART.md) (5-minute version)
+- 📙 **WireGuard Traditional:** [`VPN.md`](./docs/wireguard/VPN.md) (comprehensive guide)
+- 📕 **VPS Relay:** [`VPN.md` → Appendix A](./docs/wireguard/VPN.md#appendix-a-cgnat-workaround-guide)
+- 📔 **Cloudflare:** [`VPN.md` → Appendix C](./docs/wireguard/VPN.md#appendix-c-cloudflare-tunnel-setup)
 
 ---
 
@@ -624,33 +624,33 @@ This repo contains all my documentation from this journey:
 | File | Description | Audience |
 |------|-------------|----------|
 | [`README.md`](./README.md) | This file - my journey & lessons | Everyone |
-| [`VPN.md`](./VPN.md) | Comprehensive WireGuard guide (8000+ lines) | Intermediate |
-| [`TAILSCALE-COMPLETE-GUIDE.md`](./TAILSCALE-COMPLETE-GUIDE.md) | Full Tailscale setup (4700+ lines) | Beginners to Advanced |
-| [`TAILSCALE-QUICKSTART.md`](./TAILSCALE-QUICKSTART.md) | 5-minute Tailscale setup | Quick start |
+| [`VPN.md`](./docs/wireguard/VPN.md) | Comprehensive WireGuard guide (8000+ lines) | Intermediate |
+| [`TAILSCALE-COMPLETE-GUIDE.md`](./docs/tailscale/TAILSCALE-COMPLETE-GUIDE.md) | Full Tailscale setup (4700+ lines) | Beginners to Advanced |
+| [`TAILSCALE-QUICKSTART.md`](./docs/tailscale/TAILSCALE-QUICKSTART.md) | 5-minute Tailscale setup | Quick start |
 
 ### 🔍 Decision Helpers
 
 | File | Description | Use When |
 |------|-------------|----------|
-| [`SOLUTIONS-COMPARISON.md`](./SOLUTIONS-COMPARISON.md) | Compare all VPN solutions | Choosing a solution |
-| [`CGNAT-BYPASS-ARCHITECTURE.md`](./CGNAT-BYPASS-ARCHITECTURE.md) | How each solution bypasses CGNAT | Understanding options |
-| [`check-cgnat.sh`](./check-cgnat.sh) | Detect if you're behind CGNAT | First step |
+| [`SOLUTIONS-COMPARISON.md`](./docs/SOLUTIONS-COMPARISON.md) | Compare all VPN solutions | Choosing a solution |
+| [`CGNAT-BYPASS-ARCHITECTURE.md`](./docs/CGNAT-BYPASS-ARCHITECTURE.md) | How each solution bypasses CGNAT | Understanding options |
+| [`check-cgnat.sh`](./scripts/check-cgnat.sh) | Detect if you're behind CGNAT | First step |
 
 ### 🎯 What to Read First
 
 **If you're behind CGNAT (like me):**
 1. Read this README (you're here!)
-2. Run `check-cgnat.sh` to confirm
-3. Read `SOLUTIONS-COMPARISON.md` to choose
-4. Follow `TAILSCALE-QUICKSTART.md` for fast setup
-5. Refer to `TAILSCALE-COMPLETE-GUIDE.md` for details
+2. Run `scripts/check-cgnat.sh` to confirm
+3. Read `docs/SOLUTIONS-COMPARISON.md` to choose
+4. Follow `docs/tailscale/TAILSCALE-QUICKSTART.md` for fast setup
+5. Refer to `docs/tailscale/TAILSCALE-COMPLETE-GUIDE.md` for details
 
 **If you have a public IP:**
 1. Read this README for context
-2. Follow `VPN.md` for traditional WireGuard
+2. Follow `docs/wireguard/VPN.md` for traditional WireGuard
 
 **If you just want architecture diagrams:**
-- See `CGNAT-BYPASS-ARCHITECTURE.md`
+- See `docs/CGNAT-BYPASS-ARCHITECTURE.md`
 
 ---
 

@@ -4332,9 +4332,9 @@ ssh user@home-server
 
 **This Guide:**
 - Tailscale Quick Start: `TAILSCALE-QUICKSTART.md`
-- Solutions Comparison: `SOLUTIONS-COMPARISON.md`
-- Architecture Diagrams: `CGNAT-BYPASS-ARCHITECTURE.md`
-- Original WireGuard Guide: `VPN.md`
+- Solutions Comparison: `../SOLUTIONS-COMPARISON.md`
+- Architecture Diagrams: `../CGNAT-BYPASS-ARCHITECTURE.md`
+- Original WireGuard Guide: `../wireguard/VPN.md`
 
 ---
 
@@ -4744,11 +4744,11 @@ You've successfully built a **production-grade VPN** using Tailscale that:
 **Status:** Complete ✅  
 
 **Related Files:**
-- `VPN.md` - Original comprehensive WireGuard guide
+- `../wireguard/VPN.md` - Original comprehensive WireGuard guide
 - `TAILSCALE-QUICKSTART.md` - 5-minute quick start
-- `SOLUTIONS-COMPARISON.md` - CGNAT bypass solutions comparison
-- `CGNAT-BYPASS-ARCHITECTURE.md` - Architecture diagrams
-- `check-cgnat.sh` - CGNAT detection script
+- `../SOLUTIONS-COMPARISON.md` - CGNAT bypass solutions comparison
+- `../CGNAT-BYPASS-ARCHITECTURE.md` - Architecture diagrams
+- `../../scripts/check-cgnat.sh` - CGNAT detection script
 
 **Total Steps:** 7  
 **Estimated Total Time:** 60-90 minutes  
